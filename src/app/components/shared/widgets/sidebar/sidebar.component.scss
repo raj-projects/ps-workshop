@@ -10,9 +10,20 @@ aside {
 
         .title{
             font-size: 22px;
-            background-color:darkgoldenrod;
+            background-color:#777;
             color: #fff;
             padding: 10px;
+        }
+
+        .search {
+            padding: 10px;
+            margin: 10px 0;
+            
+            input[type="text"] {
+                width: 90%;
+                padding: 10px;
+                text-indent: 5px;
+            }
         }
 
         ul {

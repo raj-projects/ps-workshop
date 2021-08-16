@@ -17,8 +17,8 @@ import { FooterComponent } from './components/shared/widgets/footer/footer.compo
 import { SidebarComponent } from './components/shared/widgets/sidebar/sidebar.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
-import { CourseComponent } from './components/pages/courses/course/course.component';
-import { CoursesComponent } from './components/pages/courses/courses.component';
+import { PostsComponent } from './components/pages/posts/posts.component';
+import { PostComponent } from './components/pages/posts/post/post.component';
 import { HomeComponent } from './components/pages/home/home.component';
 
 
@@ -30,8 +30,8 @@ import { HomeComponent } from './components/pages/home/home.component';
     SidebarComponent,
     HomeComponent,
     AboutComponent,
-    CoursesComponent,
-    CourseComponent,
+    PostsComponent,
+    PostComponent,
     ContactComponent
   ],
   imports: [
