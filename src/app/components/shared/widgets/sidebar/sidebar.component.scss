@@ -1,4 +1,59 @@
 aside {
-    background-color: blue;
-    margin-right: 10px;
+    // background-color: #ddd;
+    border-left: 1px solid#ddd;
+    padding: 15px;
+    // height: 82vh;
+
+    .aside-box {
+        border: 1px solid#777;
+        margin-bottom: 10px;
+
+        .title{
+            font-size: 22px;
+            background-color:darkgoldenrod;
+            color: #fff;
+            padding: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0 15px;
+
+            li {
+                margin: 5px 0;
+                padding: 5px 0;
+                width: 100%;
+                // background-color: aqua;
+                border-bottom: 1px solid #ccc;
+                cursor: pointer;
+
+                &:hover::after {
+                    content: '> ';
+                }
+                &:last-child {
+                    border-bottom: unset;
+                }
+            }
+        }
+    }
+    .tags {     
+        .tag-section {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 7px 0;
+
+            span {
+                margin: 5px;
+                padding: 1px 5px;
+                border: 1px solid#777;
+                border-radius: 7px;
+                cursor: pointer;
+    
+                &:hover {
+                    background-color: darkgoldenrod;
+                    color: #fff;
+                }
+            }
+        }
+    }
 }

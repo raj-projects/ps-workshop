@@ -1,4 +1,21 @@
 header {
     height: 50px;
-    background-color: black;
+    background-color: rgb(62, 59, 238);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header-title {
+        padding: 15px;
+        color: #fff;
+    }
+    .navigation {
+        color: #fff;
+
+        ul li {
+            display: inline-flex;
+            list-style: none;
+            padding: 0 15px;
+        }
+    }
 }

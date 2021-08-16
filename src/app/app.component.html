@@ -1,8 +1,10 @@
 <div fxLayout="column" fxLayoutAlign="space-between stretch" >
   <app-header></app-header>
-  <div class="main-container" fxLayout="row">
-    <app-sidebar fxFlex="15"></app-sidebar>
-    <app-home fxFlex="85"></app-home>
+  <div class="main-container" fxLayout="row" fxLayoutAlign="space-between stretch">
+    <div class="page-layout" fxFlex="75">
+      <app-home></app-home>
+    </div>    
+    <app-sidebar fxFlex="25"></app-sidebar>
   </div>
   <app-footer></app-footer>
 </div>
