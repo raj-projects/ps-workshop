@@ -1,8 +1,7 @@
 aside {
-    // background-color: #ddd;
     border-left: 1px solid#ddd;
-    padding: 15px;
-    // height: 82vh;
+    margin: 8px 0;
+    padding: 7px 15px;
 
     .aside-box {
         border: 1px solid#999;
@@ -64,6 +63,11 @@ aside {
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
+                    width: 100%;
+
+                    span:nth-child(1) {
+                        font-weight: 500;
+                    }
                 }
                 &:hover {
                     color: darkgoldenrod;
