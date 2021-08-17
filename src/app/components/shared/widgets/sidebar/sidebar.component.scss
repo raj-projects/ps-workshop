@@ -49,13 +49,25 @@ aside {
                     display: flex;                
                     flex-direction: column;
 
-                    span {
+                    span:nth-child(1) {
                         font-size: 14px;
                         font-weight: 500;
                     } 
-                    small {
+                    span:nth-child(2) {
                         font-size: 12px;
                         color: #999;
+                        display: flex;
+                        align-items: center;
+
+                        .tiny {
+                            font-size: 14px;
+                            margin-right: 3px;
+                        }
+                        small {
+                            font-size: 11px;
+                            position: relative;
+                            top: 1.5px;
+                        }
                     }
                 }
 

@@ -15,24 +15,13 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/shared/widgets/header/header.component';
 import { FooterComponent } from './components/shared/widgets/footer/footer.component';
 import { SidebarComponent } from './components/shared/widgets/sidebar/sidebar.component';
-import { AboutComponent } from './components/pages/about/about.component';
-import { ContactComponent } from './components/pages/contact/contact.component';
-import { PostsComponent } from './components/pages/posts/posts.component';
-import { PostComponent } from './components/pages/posts/post/post.component';
-import { HomeComponent } from './components/pages/home/home.component';
-
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SidebarComponent,
-    HomeComponent,
-    AboutComponent,
-    PostsComponent,
-    PostComponent,
-    ContactComponent
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
