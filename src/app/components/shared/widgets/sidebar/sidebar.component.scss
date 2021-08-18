@@ -63,10 +63,11 @@ aside {
                             font-size: 14px;
                             margin-right: 3px;
                         }
+
                         small {
                             font-size: 11px;
                             position: relative;
-                            top: 1.5px;
+                            top: 1.3px;
                         }
                     }
                 }
@@ -78,7 +79,19 @@ aside {
                     width: 100%;
 
                     span:nth-child(1) {
-                        font-weight: 500;
+                        font-weight: 500;                        
+                        display: flex;
+                        align-items: center;
+
+                        .mediam {
+                            font-size: 20px;
+                            margin-right: 5px;
+                        }
+
+                        span {                            
+                            position: relative;
+                            top: 1.3px;
+                        }
                     }
                 }
                 &:hover {
@@ -95,6 +108,7 @@ aside {
             display: flex;
             flex-wrap: wrap;
             margin: 10px 0;
+            padding: 0 10px;
 
             span {
                 margin: 5px;
