@@ -1,11 +1,10 @@
 <div fxLayout="column" fxLayoutAlign="space-between stretch" >
   <app-header></app-header>
   <div class="main-container" fxLayout="row" fxLayoutAlign="space-between stretch">
-    <!-- <app-sidebar-left fxFlex="28"></app-sidebar-left> -->
     <div class="page-layout" fxFlex="72">
       <router-outlet></router-outlet>
     </div>    
-    <app-sidebar-right fxFlex="28"></app-sidebar-right>
+    <app-sidebar fxFlex="28"></app-sidebar>
   </div>
   <app-footer></app-footer>
 </div>

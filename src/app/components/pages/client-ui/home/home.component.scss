@@ -1,0 +1,141 @@
+.home-banner {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  border: 1px solid#aaa;
+  margin-bottom: 20px;
+  background-image: url(../../../../../assets/img/hero-img.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.courses-section,
+.blogs-section {
+  margin-bottom: 40px;
+  width: 100%;
+
+  .header-title {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+  }
+  .course-grid {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    .box {
+      width: 20.5%;
+      min-width: 200px;
+      height: 170px;
+      margin-right: 10px;
+      border: 1px solid#999;
+      text-transform: uppercase;
+      background-color: #fcfcfc;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      &:last-child {
+        margin-right: unset !important;
+      }
+    }
+  }
+  .blog-grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    text-transform: unset;
+    .box {
+      width: 50%;
+      min-width: 500px;
+      height: 180px;
+      margin-right: 10px;
+      border: 1px solid#999;
+      background-color: #fcfcfc;
+      font-size: 20px;
+      display: flex;
+      flex: 1 1;
+      &:nth-child(odd) {
+        margin-left: 0;
+        margin-right: 5px;
+        margin-top: 10px;
+      }
+      &:nth-child(even) {
+        margin-left: 5px;
+        margin-right: 0;
+        margin-top: 10px;
+      }
+      img {
+        width: 200px;
+        height: 179px;
+        margin-right: 10px;
+        border: 1px solid#999;
+        text-transform: uppercase;
+        background-color: #fcfcfc;
+      }
+      .content {
+        flex-direction: column;
+        padding: 8px;
+        .title {
+          font-size: 15px;
+          font-weight: 600;
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 4px;
+          span:nth-child(1) {
+            text-decoration: underline;
+          }
+          span:nth-child(2) {
+            display: flex;
+            align-items: center;
+            margin-top: -1px;
+            color: #666;
+          }
+          .tiny {
+            font-size: 13.5px;
+            margin-right: 3px;
+            font-weight: 600;
+          }
+          small,
+          .small {
+            font-size: 12px;
+            position: relative;
+            top: 1.3px;
+            font-weight: normal;
+            strong {
+              margin-right: 4px;
+            }
+          }
+          small:nth-child(2) {
+            display: flex;
+            align-items: center;
+          }
+        }
+        .desc {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .blog-grid:nth-child(2) {
+    margin-top: -10px;
+  }
+  .read-more {
+    background-color: orange;
+    float: right;
+    position: relative;
+    top: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
